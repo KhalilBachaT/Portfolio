@@ -1,0 +1,12 @@
+source venv/bin/activate
+django-admin startproject personal_portfolio
+python manage.py runserver
+python manage.py startapp hello_world
+what is virtual envir
+python manage.py makemigrations projects
+python manage.py shell
+
+p2 = Project(title='My Second Project',description='Another web development project.',technology='Flask',image='img/project2.png')
+p2.save()
+p3 = Project(title='My Third Project',description='A final development project.',technology='Django',image='img/project3.png')
+p3.save()
